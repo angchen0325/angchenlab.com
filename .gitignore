@@ -1,0 +1,12 @@
+node_modules/
+.cache/
+.vscode/
+public/
+public-live/
+npm-debug.log
+.eslintcache
+.gatsby-context.js
+.idea
+gatsby-starter-lumen.iml
+.DS_Store
+*.tsbuildinfo

@@ -1,0 +1,66 @@
+'use strict';
+
+const _ = require('lodash');
+const moment = require('moment');
+const { createFilePath } = require('gatsby-source-filesystem');
+
+const formatDate = date => moment(date).format('MMMM D, YYYY');
+const calculateReadingTime = text => {
+  const wordsPerMinute = 200;
+  const words = text ? text.trim().split(/\s+/).length : 0;
+  const minutes = Math.ceil(words / wordsPerMinute);
+  return { words, minutes, text: `${minutes} min read` };
+};
+
+const onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions;
+
+  if (node.internal.type === 'MarkdownRemark') {
+    const readingTime = calculateReadingTime(node.rawMarkdownBody || '');
+    createNodeField({ node, name: 'readingTime', value: readingTime });
+
+    if (typeof node.frontmatter.slug !== 'undefined') {
+      createNodeField({
+        node,
+        name: 'slug',
+        value: node.frontmatter.slug,
+      });
+    } else if (typeof node.frontmatter.frontSlug !== 'undefined') {
+      createNodeField({
+        node,
+        name: 'frontSlug',
+        value: node.frontmatter.frontSlug,
+      });
+    } else {
+      const value = createFilePath({ node, getNode });
+      createNodeField({
+        node,
+        name: 'slug',
+        value,
+      });
+    }
+
+    if (node.frontmatter.tags) {
+      const tagSlugs = node.frontmatter.tags.map(tag => `/tag/${_.kebabCase(tag)}/`);
+      createNodeField({ node, name: 'tagSlugs', value: tagSlugs });
+    }
+
+    if (node.frontmatter.category) {
+      const categorySlug = `/tag/${_.kebabCase(node.frontmatter.category)}/`;
+      createNodeField({ node, name: 'categorySlug', value: categorySlug });
+    }
+
+    if (node.frontmatter.date) {
+      createNodeField({ node, name: 'dateFormatted', value: formatDate(node.frontmatter.date) });
+    }
+    if (node.frontmatter.dateModified) {
+      createNodeField({
+        node,
+        name: 'dateModifiedFormatted',
+        value: formatDate(node.frontmatter.dateModified),
+      });
+    }
+  }
+};
+
+module.exports = onCreateNode;
