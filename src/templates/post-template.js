@@ -1,9 +1,7 @@
 // @flow
 import { graphql } from 'gatsby';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
-import loadable from '@loadable/component';
-import FixedScrollContainer from '../components/FixedScrollContainer';
 import Layout from '../components/Layout';
 import NavHeader from '../components/NavHeader';
 import PlatformContext from '../components/PlatformContext';
@@ -11,8 +9,6 @@ import Post from '../components/Post';
 import Series from '../components/Series';
 import TableOfContents from '../components/TableOfContents';
 import TemplateWrapper from '../components/TemplateWrapper';
-
-const CarbonAd = loadable(() => import('../components/CarbonAd'));
 
 type Props = {|
   +data: Object,
@@ -57,20 +53,6 @@ const PostTemplate = ({ data, pageContext }: Props) => {
     wordCount += data.seriesEnd.fields.readingTime.words;
   }
 
-  const [hasScrolled, setHasScrolled] = useState(false);
-
-  useEffect(() => {
-    if (hasScrolled) {
-      return;
-    }
-
-    const listener = () => setHasScrolled(true);
-    window.addEventListener('scroll', listener);
-    return () => {
-      window.removeEventListener('scroll', listener);
-    };
-  }, [hasScrolled, setHasScrolled]);
-
   return (
     <TemplateWrapper>
       <NavHeader />
@@ -84,11 +66,6 @@ const PostTemplate = ({ data, pageContext }: Props) => {
           <Post post={slugNode} />
         )}
       </Layout>
-      {hasScrolled && (
-        <FixedScrollContainer>
-          <CarbonAd largeOnly />
-        </FixedScrollContainer>
-      )}
       <PlatformContext
         threshold={1200}
         render={isMobile => !isMobile && <TableOfContents headings={slugNode.headings} />}
