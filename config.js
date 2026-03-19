@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://angchenlab.com',
-  title: 'angchenlab.com',
+  title: 'Ang Chen\'s Lab',
   subtitle:
     'An optical physicist. I blog about semiconductors, optics, photonics, colors and more topics.',
   copyright: '© Ang Chen',
