@@ -11,7 +11,7 @@ tags:
 description: "A compact overview of how I think about optics as a system-level discipline."
 ---
 
-> **2026 Update**: this is still one of my most popular posts after all these years, and also one of my personal favorites. Reading this will help you build foundational intuition for more complex systems like LLMs!
+> **2026 Update**: this is the start of my personal website!
 
 Optics is where I usually start when I want to reason about a light-based system at human scale. If photonics is the broad field, optics is often the operational layer: lenses, imaging paths, apertures, aberrations, and the tradeoffs that show up once a real device has to work.
 
