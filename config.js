@@ -6,20 +6,33 @@ module.exports = {
   subtitle:
     'An optical physicist. I blog about semiconductors, optics, photonics, colors and more topics.',
   copyright: '© Ang Chen',
-  postsPerPage: 8,
+  postsPerPage: 6,
   googleAnalyticsId: 'UA-58664433-1',
   menu: [
     {
-      label: 'Blog',
+      label: 'About',
+      icon: 'fa-solid fa-house',
       path: '/',
     },
     {
-      label: 'About',
-      path: '/about/',
+      label: 'Projects',
+      icon: 'fa-solid fa-diagram-project',
+      path: '/projects/',
+    },
+    {
+      label: 'Blog',
+      icon: 'fa-solid fa-blog',
+      path: '/blog/',
     },
     {
       label: 'Tags',
+      icon: 'fa-solid fa-tags',
       path: '/tags/',
+    },
+    {
+      label: 'CV',
+      icon: 'fa-solid fa-file-lines',
+      path: '/cv/',
     },
   ],
   author: {

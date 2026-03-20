@@ -6,6 +6,11 @@ const React = require('react');
 
 exports.onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents([
+    <link
+      key="font-awesome"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />,
     <script
       key="theme-script"
       dangerouslySetInnerHTML={{
