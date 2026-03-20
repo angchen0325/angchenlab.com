@@ -6,6 +6,33 @@ import styles from './Menu.module.scss';
 
 const cx = classNames.bind(styles);
 
+export const isMenuItemActive = (itemPath, pathname = '') => {
+  if (!pathname) {
+    return false;
+  }
+
+  if (itemPath === '/') {
+    return pathname === '/';
+  }
+
+  if (itemPath === '/blog/') {
+    return pathname === '/blog/' || pathname.startsWith('/blog/page/') || pathname.startsWith('/blog/top/');
+  }
+
+  if (itemPath === '/tags/') {
+    return pathname === '/tags/' || pathname.startsWith('/tag/');
+  }
+
+  return pathname === itemPath;
+};
+
+const getMenuItemClassName = (itemPath, pathname, bold) =>
+  cx({
+    'menu__list-item-link': true,
+    bold,
+    'menu__list-item-link--active': isMenuItemActive(itemPath, pathname),
+  });
+
 export const PureMenu = ({ data, horizontal, bold, noMargin, location }) => {
   const { menu } = data.site.siteMetadata;
   const pathname = location ? location.pathname : '';
@@ -22,18 +49,13 @@ export const PureMenu = ({ data, horizontal, bold, noMargin, location }) => {
           <li className={styles['menu__list-item']} key={item.path}>
             <Link
               to={item.path}
-              className={cx({
-                'menu__list-item-link': true,
-                bold,
-                'menu__list-item-link--active':
-                  (item.path === '/' &&
-                    (pathname.startsWith('/top/') || pathname.startsWith('/page/'))) ||
-                  (item.path === '/tags/' && pathname.startsWith('/tag/')),
+              className={getMenuItemClassName(item.path, pathname, bold)}
+              getProps={({ location: currentLocation }) => ({
+                className: getMenuItemClassName(item.path, currentLocation.pathname, bold),
               })}
-              activeClassName={styles['menu__list-item-link--active']}
-              partiallyActive={item.path !== '/'}
             >
-              {item.label}
+              {item.icon && <i className={cx('menu__list-item-icon', item.icon)} aria-hidden="true" />}
+              <span>{item.label}</span>
             </Link>
           </li>
         ))}
@@ -50,6 +72,7 @@ export const Menu = props => (
           siteMetadata {
             menu {
               label
+              icon
               path
             }
           }
