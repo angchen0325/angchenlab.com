@@ -29,7 +29,7 @@ const IndexTemplate = ({ data, pageContext, location }: Props) => {
     currentPage > 1
       ? `${sortByNew ? '' : 'Top '}Posts - Page ${currentPage} - ${siteTitle}`
       : sortByNew
-      ? siteTitle
+      ? `Blog - ${siteTitle}`
       : `Top Posts - ${siteTitle}`;
 
   const sameAs = [
@@ -68,7 +68,7 @@ export const Head = ({ data, pageContext }: Props) => {
     currentPage > 1
       ? `${sortByNew ? '' : 'Top '}Posts - Page ${currentPage} - ${siteTitle}`
       : sortByNew
-      ? siteTitle
+      ? `Blog - ${siteTitle}`
       : `Top Posts - ${siteTitle}`;
   const sameAs = [
     author.contacts.facebook && `https://www.facebook.com/${author.contacts.facebook}`,

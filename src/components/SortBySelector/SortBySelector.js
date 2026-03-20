@@ -3,7 +3,7 @@ import classnames from 'classnames/bind';
 import { Link } from 'gatsby';
 import React from 'react';
 
-import { topPostsPagePath } from '../../utils/page-paths';
+import { postPagePath, topPostsPagePath } from '../../utils/page-paths';
 import styles from './SortBySelector.module.scss';
 
 const cx = classnames.bind(styles);
@@ -16,7 +16,7 @@ const SortBySelector = ({ sortByNew }: Props) => (
   <div className={styles['root']}>
     <ul>
       <li>
-        <Link className={cx({ link: true, selected: sortByNew })} to="/">
+        <Link className={cx({ link: true, selected: sortByNew })} to={postPagePath(1)}>
           New
         </Link>
       </li>
