@@ -1,14 +1,16 @@
 ---
-title: "About Me"
+title: "About"
 template: "page"
-slug: "/about/"
+slug: "/"
 hideSubscribe: true
 ---
 
-I'm currently blogging about what I'm really interested in,
-including [semiconductors](/blog/emiconductors/), [optics](/blog/optics/), [photonics](/blog/photonics/) and so on.
+I am an optical physicist working across semiconductors, optics, photonics, and color.
 
+This site is where I organize research interests, technical notes, and selected projects in a more readable form than a CV alone.
 
-You can see more of my projects on my [Github](https://github.com/angchen0325).
+I use it as a place to connect physical intuition, device design, and practical implementation.
 
-Want to get in touch? [Contact Me](/contact/).
+You can also find code and experiments on my [<i class="fa-brands fa-github"></i> GitHub](https://github.com/angchen0325).
+
+Want to get in touch? [<i class="fa-solid fa-address-book"></i> Contact Me](/contact/).

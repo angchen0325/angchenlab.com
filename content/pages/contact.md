@@ -9,6 +9,6 @@ noIndex: true
 
 You can get in touch with me by
 
-- Email: [chenang0325@gmail.com)](mailto:chenang0325@gmail.com)
-- X: [@angchen0325](https://x.com/angchen0325)
-- Facebook: [angchen0325](https://www.facebook.com/angchen0325)
+- [<i class="fa-solid fa-envelope"></i> chenang0325@gmail.com](mailto:chenang0325@gmail.com)
+- [<i class="fa-brands fa-x-twitter"></i> @angchen0325](https://x.com/angchen0325)
+- [<i class="fa-brands fa-square-facebook"></i> angchen0325](https://www.facebook.com/angchen0325)
