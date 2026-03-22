@@ -1,70 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1"
-	 id="Capa_1" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg"
+	 id="Capa_1" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:cc="http://creativecommons.org/ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 307.6 307.6"
 	 style="enable-background:new 0 0 307.6 307.6;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#DABFFF;}
-	.st1{fill:#DAD1FF;}
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#DABFFF;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#DAD1FF;}
 </style>
 <sodipodi:namedview  bordercolor="#666666" borderopacity="1" gridtolerance="10" guidetolerance="10" id="namedview87" inkscape:current-layer="Capa_1" inkscape:cx="151.2" inkscape:cy="171.06206" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="1395" inkscape:window-maximized="1" inkscape:window-width="2560" inkscape:window-x="0" inkscape:window-y="1" inkscape:zoom="1" objecttolerance="10" pagecolor="#ffffff" showgrid="false">
 	</sodipodi:namedview>
-<g id="g6" transform="matrix(0.9999,0,0,0.9999,2.59512,2.5951177)">
-	<g id="g4">
-		<path id="path2" inkscape:connector-curvature="0" sodipodi:nodetypes="cscssscsc" class="st0" d="M204.8,97.6
-			C191.2,84,172,75.2,151.2,75.2s-40,8.4-53.6,22.4c-13.6,13.6-22.4,32.8-22.4,53.6s8.8,40,22.4,53.6c13.6,13.6,32.8,22.4,53.6,22.4
-			s40-8.4,53.6-22.4c13.6-13.6,22.4-32.8,22.4-53.6S218.8,111.2,204.8,97.6L204.8,97.6z"/>
-	</g>
-</g>
-<g id="g12" transform="matrix(1.1,0,0,1.1,-25.08,-12.540002)">
-	<g id="g10">
-		<path id="path8" inkscape:connector-curvature="0" class="st1" d="M292,140.8h-30.8c-5.6,0-10.4,4.8-10.4,10.4
-			c0,5.6,4.8,10.4,10.4,10.4H292c5.6,0,10.4-4.8,10.4-10.4S297.6,140.8,292,140.8z"/>
-	</g>
-</g>
-<g id="g18" transform="matrix(1.1,0,0,1.1,-12.54,-25.080002)">
-	<g id="g16">
-		<path id="path14" inkscape:connector-curvature="0" class="st1" d="M151.2,250.8c-5.6,0-10.4,4.8-10.4,10.4V292
-			c0,5.6,4.8,10.4,10.4,10.4c5.6,0,10.4-4.8,10.4-10.4v-30.8C161.6,255.6,156.8,250.8,151.2,250.8L151.2,250.8z"/>
-	</g>
-</g>
-<g id="g24" transform="matrix(1.1,0,0,1.1,-21.4,-21.400002)">
-	<g id="g22">
-		<path id="path20" inkscape:connector-curvature="0" class="st1" d="M258,243.6l-22-22c-3.6-4-10.4-4-14.4,0s-4,10.4,0,14.4l22,22
-			c4,4,10.4,4,14.4,0S262,247.6,258,243.6z"/>
-	</g>
-</g>
-<g id="g30" transform="matrix(1.1,0,0,1.1,-12.54,-2.3414062e-6)">
-	<g id="g28">
-		<path id="path26" inkscape:connector-curvature="0" class="st1" d="M151.2,0c-5.6,0-10.4,4.8-10.4,10.4v30.8
-			c0,5.6,4.8,10.4,10.4,10.4c5.6,0,10.4-4.8,10.4-10.4V10.4C161.6,4.8,156.8,0,151.2,0z"/>
-	</g>
-</g>
-<g id="g36" transform="matrix(1.1,0,0,1.1,-21.44,-3.6800023)">
-	<g id="g34">
-		<path id="path32" inkscape:connector-curvature="0" class="st1" d="M258.4,44.4c-4-4-10.4-4-14.4,0l-22,22c-4,4-4,10.4,0,14.4
-			c3.6,4,10.4,4,14.4,0l22-22C262.4,54.8,262.4,48.4,258.4,44.4z"/>
-	</g>
-</g>
-<g id="g42" transform="matrix(1.1,0,0,1.1,0,-12.540002)">
-	<g id="g40">
-		<path id="path38" inkscape:connector-curvature="0" class="st1" d="M41.2,140.8H10.4c-5.6,0-10.4,4.8-10.4,10.4
-			c0,5.6,4.4,10.4,10.4,10.4h30.8c5.6,0,10.4-4.8,10.4-10.4S46.8,140.8,41.2,140.8z"/>
-	</g>
-</g>
-<g id="g48" transform="matrix(1.1,0,0,1.1,-3.64,-21.400002)">
-	<g id="g46">
-		<path id="path44" inkscape:connector-curvature="0" class="st1" d="M80.4,221.6c-3.6-4-10.4-4-14.4,0l-22,22c-4,4-4,10.4,0,14.4
-			s10.4,4,14.4,0l22-22C84.4,232,84.4,225.6,80.4,221.6z"/>
-	</g>
-</g>
-<g id="g54" transform="matrix(1.1,0,0,1.1,-3.64,-3.6800023)">
-	<g id="g52">
-		<path id="path50" inkscape:connector-curvature="0" class="st1" d="M80.4,66.4l-22-22c-4-4-10.4-4-14.4,0s-4,10.4,0,14.4l22,22
-			c4,4,10.4,4,14.4,0S84.4,70.4,80.4,66.4z"/>
-	</g>
-</g>
 <g id="g56" transform="translate(2.58,2.5799977)">
 </g>
 <g id="g58" transform="translate(2.58,2.5799977)">
@@ -95,4 +40,13 @@
 </g>
 <g id="g84" transform="translate(2.58,2.5799977)">
 </g>
+<circle class="st0" cx="153.8" cy="153.8" r="76.9"/>
+<polygon class="st1" points="262.5,262.5 203.1,234.2 234.3,203 "/>
+<polygon class="st1" points="153.8,307.6 131.7,245.5 175.9,245.5 "/>
+<polygon class="st1" points="45.1,262.5 73.3,203 104.5,234.2 "/>
+<polygon class="st1" points="0,153.8 62.1,131.7 62.1,175.8 "/>
+<polygon class="st1" points="45.1,45 104.5,73.3 73.3,104.5 "/>
+<polygon class="st1" points="153.8,0 175.9,62.1 131.7,62.1 "/>
+<polygon class="st1" points="262.5,45 234.3,104.5 203.1,73.3 "/>
+<polygon class="st1" points="307.6,153.8 245.5,175.8 245.5,131.7 "/>
 </svg>
