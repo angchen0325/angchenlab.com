@@ -1,52 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1"
-	 id="Capa_1" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:cc="http://creativecommons.org/ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 307.6 307.6"
-	 style="enable-background:new 0 0 307.6 307.6;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 307.6 307.6" style="enable-background:new 0 0 307.6 307.6;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#DABFFF;}
-	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#DAD1FF;}
+	.st0{fill:#FFC02B;}
 </style>
-<sodipodi:namedview  bordercolor="#666666" borderopacity="1" gridtolerance="10" guidetolerance="10" id="namedview87" inkscape:current-layer="Capa_1" inkscape:cx="151.2" inkscape:cy="171.06206" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="1395" inkscape:window-maximized="1" inkscape:window-width="2560" inkscape:window-x="0" inkscape:window-y="1" inkscape:zoom="1" objecttolerance="10" pagecolor="#ffffff" showgrid="false">
-	</sodipodi:namedview>
-<g id="g56" transform="translate(2.58,2.5799977)">
+<g id="Layer_2_00000062180714778358236180000004860029783984001160_">
 </g>
-<g id="g58" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g60" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g62" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g64" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g66" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g68" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g70" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g72" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g74" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g76" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g78" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g80" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g82" transform="translate(2.58,2.5799977)">
-</g>
-<g id="g84" transform="translate(2.58,2.5799977)">
-</g>
-<circle class="st0" cx="153.8" cy="153.8" r="76.9"/>
-<polygon class="st1" points="262.5,262.5 203.1,234.2 234.3,203 "/>
-<polygon class="st1" points="153.8,307.6 131.7,245.5 175.9,245.5 "/>
-<polygon class="st1" points="45.1,262.5 73.3,203 104.5,234.2 "/>
-<polygon class="st1" points="0,153.8 62.1,131.7 62.1,175.8 "/>
-<polygon class="st1" points="45.1,45 104.5,73.3 73.3,104.5 "/>
-<polygon class="st1" points="153.8,0 175.9,62.1 131.7,62.1 "/>
-<polygon class="st1" points="262.5,45 234.3,104.5 203.1,73.3 "/>
-<polygon class="st1" points="307.6,153.8 245.5,175.8 245.5,131.7 "/>
+<circle class="st0" cx="153.8" cy="153.8" r="54.4"/>
+<path class="st0" d="M301.8,144.5L301.8,144.5L245,116.1l20.1-60.3c2.7-8.2-5-15.9-13.2-13.2l-60.3,20.1l-28.5-57
+	c-3.8-7.7-14.8-7.7-18.6,0l-28.4,56.9L55.7,42.5c-8.2-2.7-15.9,5-13.2,13.2L62.7,116L5.8,144.5c-7.7,3.8-7.7,14.8,0,18.6l56.9,28.4
+	l-20.1,60.4c-2.7,8.2,5,15.9,13.2,13.2l60.3-20.1l28.4,56.9c3.8,7.7,14.8,7.7,18.6,0l28.4-56.9l60.3,20.1c8.2,2.7,15.9-5,13.2-13.2
+	l-20.1-60.3l56.9-28.4C309.5,159.3,309.5,148.3,301.8,144.5z M208.2,208.2c-30,30-78.8,30-108.7,0c-30-30-30-78.8,0-108.7
+	c30-30,78.8-30,108.7,0C238.2,129.4,238.2,178.2,208.2,208.2z"/>
 </svg>
