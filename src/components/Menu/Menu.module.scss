@@ -20,6 +20,8 @@
         color: $typographic-base-font-color;
         font-weight: normal;
         border: 0;
+        display: inline-flex;
+        align-items: center;
 
         &:hover,
         &:focus {
@@ -34,8 +36,15 @@
         }
       }
 
-      &-icon {
+      &-icon-wrap {
+        width: 1.5rem;
         margin-right: 0.4rem;
+        display: inline-flex;
+        justify-content: center;
+      }
+
+      &-icon {
+        display: inline-block;
       }
     }
   }

@@ -54,7 +54,11 @@ export const PureMenu = ({ data, horizontal, bold, noMargin, location }) => {
                 className: getMenuItemClassName(item.path, currentLocation.pathname, bold),
               })}
             >
-              {item.icon && <i className={cx('menu__list-item-icon', item.icon)} aria-hidden="true" />}
+              {item.icon && (
+                <span className={styles['menu__list-item-icon-wrap']}>
+                  <i className={cx('menu__list-item-icon', item.icon)} aria-hidden="true" />
+                </span>
+              )}
               <span>{item.label}</span>
             </Link>
           </li>
