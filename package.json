@@ -21,7 +21,7 @@
     "typecheck": "tsc --noEmit"
   },
   "repository": "https://github.com/angchen0325/angchenlab.com",
-  "author": "Ang Chen <chenang0325@gmail.com>",
+  "author": "Ang Chen <chenang@outlook.com>",
   "license": "MIT",
   "keywords": [],
   "engines": {

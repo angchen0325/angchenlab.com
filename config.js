@@ -44,7 +44,7 @@ module.exports = {
       twitter: 'angchen0325',
       facebook: 'angchen0325',
       github: 'angchen0325',
-      email: 'chenang0325@gmail.com',
+      email: 'chenang@outlook.com',
     },
   },
   previewImage: '/photo_large.png',
