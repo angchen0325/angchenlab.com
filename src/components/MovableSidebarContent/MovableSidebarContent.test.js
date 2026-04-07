@@ -12,9 +12,9 @@ describe('MovableSidebarContent', () => {
             author: {
               contacts: {
                 email: '#',
+                github: '#',
                 twitter: '#',
                 facebook: '#',
-                github: '#',
               },
             },
             copyright: 'copyright',

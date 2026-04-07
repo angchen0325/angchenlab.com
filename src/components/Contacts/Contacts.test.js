@@ -39,7 +39,7 @@ describe('Contacts', () => {
       const listItem = items[index];
       const link = listItem.children[0];
       expect(link.props.href).toBe(getContactHref(name, props.contacts[name]));
-      expect(link.children[0].type).toBe('svg');
+      expect(link.children[0].type).toBe('i');
     });
   });
 });

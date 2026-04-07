@@ -41,10 +41,10 @@ module.exports = {
     photoLarge: '/photo_large.png',
     bio: 'An optical physicist. I blog about <a href="/tag/semiconductors/">semiconductors</a>, <a href="/tag/optics/">optics</a>, <a href="/tag/photonics/">photonics</a>, <a href="/tag/colors/">colors</a> and <a href="/tags/">more topics</a>.',
     contacts: {
+      email: 'chenang@outlook.com',
+      github: 'angchen0325',
       twitter: 'angchen0325',
       facebook: 'angchen0325',
-      github: 'angchen0325',
-      email: 'chenang@outlook.com',
     },
   },
   previewImage: '/photo_large.png',
