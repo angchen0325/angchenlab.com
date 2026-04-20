@@ -4,10 +4,10 @@ module.exports = {
   url: 'https://angchenlab.com',
   title: 'Ang Chen\'s Lab',
   subtitle:
-    'An optical physicist. I blog about semiconductors, optics, photonics, colors and more topics.',
+    'An optical physicist fueled by blogging about optics, photonics, semiconductors, colors and more topics.',
   copyright: '© Ang Chen',
-  postsPerPage: 6,
-  googleAnalyticsId: 'UA-58664433-1',
+  postsPerPage: 10,
+  googleAnalyticsMeasurementId: process.env.GA_MEASUREMENT_ID || 'G-00R0DX958Z',
   menu: [
     {
       label: 'About',
@@ -39,7 +39,7 @@ module.exports = {
     name: 'Ang Chen',
     photo: '/photo.png',
     photoLarge: '/photo_large.png',
-    bio: 'An optical physicist. I blog about <a href="/tag/semiconductors/">semiconductors</a>, <a href="/tag/optics/">optics</a>, <a href="/tag/photonics/">photonics</a>, <a href="/tag/colors/">colors</a> and <a href="/tags/">more topics</a>.',
+    bio: 'An optical physicist fueled by blogging about <a href="/tag/optics/">optics</a>, <a href="/tag/photonics/">photonics</a>, <a href="/tag/semiconductors/">semiconductors</a>, <a href="/tag/colors/">colors</a> and <a href="/tags/">more topics</a>.',
     contacts: {
       email: 'chenang@outlook.com',
       github: 'angchen0325',
