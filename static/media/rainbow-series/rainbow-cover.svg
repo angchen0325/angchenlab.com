@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Rainbow series cover</title>
+  <desc id="desc">A simple rainbow arch above a light sky background.</desc>
+  <rect width="1200" height="630" fill="#f7fbff"/>
+  <rect y="470" width="1200" height="160" fill="#e3f2d5"/>
+  <circle cx="170" cy="120" r="48" fill="#ffd95e"/>
+  <path d="M180 460 A420 420 0 0 1 1020 460" fill="none" stroke="#d62828" stroke-width="34" stroke-linecap="round"/>
+  <path d="M220 460 A380 380 0 0 1 980 460" fill="none" stroke="#f77f00" stroke-width="32" stroke-linecap="round"/>
+  <path d="M258 460 A342 342 0 0 1 942 460" fill="none" stroke="#fcbf49" stroke-width="30" stroke-linecap="round"/>
+  <path d="M294 460 A306 306 0 0 1 906 460" fill="none" stroke="#8ac926" stroke-width="28" stroke-linecap="round"/>
+  <path d="M328 460 A272 272 0 0 1 872 460" fill="none" stroke="#1982c4" stroke-width="26" stroke-linecap="round"/>
+  <path d="M360 460 A240 240 0 0 1 840 460" fill="none" stroke="#3a86ff" stroke-width="24" stroke-linecap="round"/>
+  <path d="M390 460 A210 210 0 0 1 810 460" fill="none" stroke="#6a4c93" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="930" cy="118" r="36" fill="#ffffff"/>
+  <circle cx="968" cy="118" r="28" fill="#ffffff"/>
+  <circle cx="995" cy="126" r="24" fill="#ffffff"/>
+</svg>

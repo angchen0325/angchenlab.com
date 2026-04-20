@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Wave optics of rainbows</title>
+  <desc id="desc">Interference fringes and wavefronts associated with the rainbow.</desc>
+  <rect width="1200" height="630" fill="#f8fbff"/>
+  <circle cx="385" cy="315" r="118" fill="#dff4ff" stroke="#5aa9e6" stroke-width="8"/>
+  <path d="M620 160 C740 180 790 250 900 270" fill="none" stroke="#d62828" stroke-width="8"/>
+  <path d="M620 205 C760 220 820 290 930 315" fill="none" stroke="#f77f00" stroke-width="8"/>
+  <path d="M620 250 C780 260 850 330 960 360" fill="none" stroke="#fcbf49" stroke-width="8"/>
+  <path d="M620 295 C795 302 875 372 980 402" fill="none" stroke="#8ac926" stroke-width="8"/>
+  <path d="M620 340 C805 347 890 410 995 438" fill="none" stroke="#1982c4" stroke-width="8"/>
+  <path d="M620 385 C815 390 900 445 1005 470" fill="none" stroke="#6a4c93" stroke-width="8"/>
+  <path d="M120 315 C175 275 230 275 285 315 C340 355 395 355 450 315 C505 275 560 275 615 315" fill="none" stroke="#1d3557" stroke-width="8"/>
+  <path d="M120 365 C175 325 230 325 285 365 C340 405 395 405 450 365 C505 325 560 325 615 365" fill="none" stroke="#457b9d" stroke-width="8"/>
+  <path d="M120 265 C175 225 230 225 285 265 C340 305 395 305 450 265 C505 225 560 225 615 265" fill="none" stroke="#457b9d" stroke-width="8"/>
+</svg>
