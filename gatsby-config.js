@@ -2,6 +2,10 @@
 
 const siteConfig = require('./config.js');
 const postCssPlugins = require('./postcss-config.js');
+const gaTrackingId =
+  typeof siteConfig.googleAnalyticsMeasurementId === 'string'
+    ? siteConfig.googleAnalyticsMeasurementId.trim()
+    : '';
 
 module.exports = {
   siteMetadata: {
@@ -135,15 +139,19 @@ module.exports = {
         defaultQuality: 90,
       },
     },
-    {
-      resolve: 'gatsby-plugin-google-gtag',
-      options: {
-        trackingIds: [siteConfig.googleAnalyticsId],
-        pluginConfig: {
-          head: true,
-        },
-      },
-    },
+    ...(gaTrackingId
+      ? [
+          {
+            resolve: 'gatsby-plugin-google-gtag',
+            options: {
+              trackingIds: [gaTrackingId],
+              pluginConfig: {
+                head: true,
+              },
+            },
+          },
+        ]
+      : []),
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
