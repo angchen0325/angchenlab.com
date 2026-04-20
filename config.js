@@ -6,7 +6,7 @@ module.exports = {
   subtitle:
     'An optical physicist fueled by blogging about optics, photonics, semiconductors, colors and more topics.',
   copyright: '© Ang Chen',
-  postsPerPage: 10,
+  postsPerPage: 6,
   googleAnalyticsMeasurementId: process.env.GA_MEASUREMENT_ID || 'G-00R0DX958Z',
   menu: [
     {
