@@ -140,21 +140,5 @@ export const buildTagDescription = (tag, edges) => {
     return tagDescriptions[tag];
   }
 
-  if (!edges.length) {
-    return null;
-  }
-
-  return (
-    <>
-      <p>{`Posts filed under ${tag}.`}</p>
-      <p style={{ marginBottom: 0 }}>Articles in this tag:</p>
-      <ul>
-        {edges.map(({ node }) => (
-          <li key={node.fields.slug}>
-            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-          </li>
-        ))}
-      </ul>
-    </>
-  );
+  return null;
 };
