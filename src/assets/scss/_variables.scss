@@ -26,7 +26,7 @@ $_color-gray-shadow: lighten($_color-base, 60%);
   --color-gray-border: #{lighten($_color-base, 75%)};
   --color-gray-bg: #{lighten($_color-base, 82%)};
 
-  --color-highlight-code-line: #{lighten($_color-primary, 50%)};
+  --color-highlight-code-line: #{rgba($_color-primary, 0.14)};
   --color-highlight-code-line-border: #{$_color-primary};
   --color-emph-special: #{darken($_color-secondary, 8%)};
 
@@ -49,7 +49,7 @@ $_color-gray-shadow: lighten($_color-base, 60%);
   --color-gray-border: #{invert(lighten($_color-base, 57%))};
   --color-gray-bg: #{invert(lighten($_color-base, 80%))};
 
-  --color-highlight-code-line: #{lighten($_color-secondary, 55%)};
+  --color-highlight-code-line: #{rgba($_color-secondary, 0.22)};
   --color-highlight-code-line-border: #{$_color-secondary};
   --color-emph-special: #{$_color-secondary};
 }

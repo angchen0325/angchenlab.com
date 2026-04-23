@@ -2,3 +2,13 @@
 
 @import "~prismjs/themes/prism.css";
 @import "base/generic";
+
+.gatsby-highlight-code-line {
+  background-color: var(--color-highlight-code-line);
+  display: block;
+  margin-right: -1em;
+  margin-left: -15px;
+  padding-right: 1em;
+  padding-left: 0.75em;
+  border-left: 0.2em solid var(--color-highlight-code-line-border);
+}
