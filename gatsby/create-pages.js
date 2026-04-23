@@ -25,6 +25,7 @@ const createPages = async ({ graphql, actions }) => {
           node {
             frontmatter {
               template
+              usesKatex
               prev
               next
               seriesSlugs
@@ -52,7 +53,10 @@ const createPages = async ({ graphql, actions }) => {
     const prev = edge.node.frontmatter.prev;
     const next = edge.node.frontmatter.next;
     const seriesSlugs = edge.node.frontmatter.seriesSlugs || [];
-    const template = edge.node.frontmatter.template;
+    let template = edge.node.frontmatter.template;
+    if (edge.node.frontmatter.usesKatex) {
+      template = 'math-post';
+    }
     createPage({
       path: slug,
       component: path.resolve(`./src/templates/${template}-template.js`),
