@@ -35,6 +35,7 @@ const IndexTemplate = ({ data, pageContext, location }: Props) => {
   const sameAs = [
     author.contacts.facebook && `https://www.facebook.com/${author.contacts.facebook}`,
     author.contacts.twitter && `https://x.com/${author.contacts.twitter}`,
+    author.contacts.linkedin && `https://www.linkedin.com/in/${author.contacts.linkedin}/`,
     author.contacts.github && `https://github.com/${author.contacts.github}`,
   ].filter(Boolean);
 
@@ -73,6 +74,7 @@ export const Head = ({ data, pageContext }: Props) => {
   const sameAs = [
     author.contacts.facebook && `https://www.facebook.com/${author.contacts.facebook}`,
     author.contacts.twitter && `https://x.com/${author.contacts.twitter}`,
+    author.contacts.linkedin && `https://www.linkedin.com/in/${author.contacts.linkedin}/`,
     author.contacts.github && `https://github.com/${author.contacts.github}`,
   ].filter(Boolean);
 
@@ -104,6 +106,7 @@ export const query = graphql`
           contacts {
             facebook
             twitter
+            linkedin
             github
           }
         }

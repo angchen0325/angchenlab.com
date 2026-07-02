@@ -11,6 +11,7 @@ type Props = {|
 const CONTACT_ICON_CLASSES = {
   twitter: 'fa-brands fa-x-twitter',
   facebook: 'fa-brands fa-square-facebook',
+  linkedin: 'fa-brands fa-linkedin',
   github: 'fa-brands fa-github',
   email: 'fa-solid fa-envelope',
 };

@@ -42,6 +42,7 @@ module.exports = {
     bio: 'An optical physicist fueled by blogging about <a href="/tag/optics/">optics</a>, <a href="/tag/photonics/">photonics</a>, <a href="/tag/semiconductors/">semiconductors</a>, <a href="/tag/colors/">colors</a> and <a href="/tags/">more topics</a>.',
     contacts: {
       email: 'chenang@outlook.com',
+      linkedin: 'ang-chen-76b648168',
       github: 'angchen0325',
       twitter: 'angchen0325',
       facebook: 'angchen0325',

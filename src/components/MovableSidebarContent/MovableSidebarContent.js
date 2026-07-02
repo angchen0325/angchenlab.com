@@ -39,6 +39,7 @@ export const MovableSidebarContent = (props: Props) => (
             author {
               contacts {
                 email
+                linkedin
                 github
                 twitter
                 facebook
