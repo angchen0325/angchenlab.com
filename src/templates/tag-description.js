@@ -6,7 +6,7 @@ const tagDescriptions = {
   Colors: (
     <>
       <p>
-        Colors is where I want to treat color as more than a label on a spectrum. It is the tag
+        Colors is where I want to treat color as more than a label on a spectrum. It is the topic
         for posts about how materials, structure, illumination, and visual interpretation combine
         to produce what we finally see.
       </p>
@@ -22,7 +22,7 @@ const tagDescriptions = {
         </li>
       </ul>
       <p>
-        Closely related tags include <Link to="/tag/optics/">Optics</Link> and{' '}
+        Closely related topics include <Link to="/tag/optics/">Optics</Link> and{' '}
         <Link to="/tag/photonics/">Photonics</Link>.
       </p>
     </>
@@ -30,7 +30,7 @@ const tagDescriptions = {
   'Inverse Design': (
     <>
       <p>
-        Inverse Design is the tag for working backward from a target response to the structure that
+        Inverse Design is the topic for working backward from a target response to the structure that
         can produce it. Instead of asking what a chosen geometry does, the posts here start by
         making the desired transmission, reflection, field profile, or spectrum explicit.
       </p>
@@ -48,7 +48,7 @@ const tagDescriptions = {
         </li>
       </ul>
       <p>
-        Nearby viewpoints include <Link to="/tag/photonics/">Photonics</Link> and{' '}
+        Nearby topics include <Link to="/tag/photonics/">Photonics</Link> and{' '}
         <Link to="/tag/optics/">Optics</Link>.
       </p>
     </>
@@ -61,7 +61,7 @@ const tagDescriptions = {
         tradeoffs become concrete enough to think about clearly.
       </p>
       <p>
-        What I want this tag to emphasize is physical intuition: what bends, what focuses, what
+        What I want this topic to emphasize is physical intuition: what bends, what focuses, what
         blurs, and which part of the system is really driving the behavior you care about.
       </p>
       <p style={{ marginBottom: 0 }}>A good place to start:</p>
@@ -76,7 +76,7 @@ const tagDescriptions = {
         </li>
       </ul>
       <p>
-        Closely related tags include <Link to="/tag/photonics/">Photonics</Link> and{' '}
+        Closely related topics include <Link to="/tag/photonics/">Photonics</Link> and{' '}
         <Link to="/tag/colors/">Colors</Link>.
       </p>
     </>
@@ -85,12 +85,12 @@ const tagDescriptions = {
     <>
       <p>
         Photonics is the broader design space where geometry, refractive index, fabrication limits,
-        and performance targets all interact. I use this tag for posts that are less about a single
+        and performance targets all interact. I use this topic for posts that are less about a single
         lens or imaging path and more about how structure can be chosen to make light behave in a
         particular way.
       </p>
       <p>
-        It is the tag where I want to connect intuition and engineering: waveguides, metasurfaces,
+        It is the topic where I want to connect intuition and engineering: waveguides, metasurfaces,
         resonators, filtering, sensing, and other cases where light response is inseparable from
         the structure that produces it.
       </p>
@@ -113,7 +113,7 @@ const tagDescriptions = {
   Semiconductors: (
     <>
       <p>
-        Semiconductors is the tag for posts about the physics, materials, and engineering of
+        Semiconductors is the topic for posts about the physics, materials, and engineering of
         semiconductors
       </p>
       <p>
@@ -128,7 +128,7 @@ const tagDescriptions = {
         </li>
       </ul>
       <p>
-        Closely related tags include <Link to="/tag/optics/">Optics</Link> and{' '}
+        Closely related topics include <Link to="/tag/optics/">Optics</Link> and{' '}
         <Link to="/tag/photonics/">Photonics</Link>.
       </p>
     </>

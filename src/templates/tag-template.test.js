@@ -88,7 +88,7 @@ describe('TagTemplate', () => {
     const descriptionTree = renderer.create(buildTagDescription('Colors', [])).toJSON();
 
     expect(JSON.stringify(descriptionTree)).toContain('Colors: Structure, Perception, and Design');
-    expect(JSON.stringify(descriptionTree)).toContain('Closely related tags include');
+    expect(JSON.stringify(descriptionTree)).toContain('Closely related topics include');
     expect(JSON.stringify(descriptionTree)).not.toContain('Posts filed under Colors.');
   });
 

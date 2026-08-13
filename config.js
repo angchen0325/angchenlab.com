@@ -11,7 +11,7 @@ module.exports = {
   menu: [
     {
       label: 'About',
-      icon: 'fa-solid fa-house',
+      icon: 'fa-solid fa-earth-asia',
       path: '/',
     },
     {
@@ -21,12 +21,12 @@ module.exports = {
     },
     {
       label: 'Blog',
-      icon: 'fa-solid fa-blog',
+      icon: 'fa-solid fa-feather-pointed',
       path: '/blog/',
     },
     {
-      label: 'Tags',
-      icon: 'fa-solid fa-tags',
+      label: 'Topics',
+      icon: 'fa-solid fa-layer-group',
       path: '/tags/',
     },
     {

@@ -7,7 +7,7 @@ const Tags = ({ tags, tagSlugs }) => (
   <div className={styles['tags']}>
     <ul className={styles['tags__list']}>
       <li className={styles['tags__list-title']}>
-        <h4 className={styles['tags__title']}>Tags:</h4>
+        <h4 className={styles['tags__title']}>Topics:</h4>
       </li>
       {tagSlugs.map((slug, i) => (
         <li className={styles['tags__list-item']} key={tags[i]}>

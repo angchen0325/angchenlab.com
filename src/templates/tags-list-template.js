@@ -15,9 +15,9 @@ const TagsListTemplate = ({ data, location }) => {
 
   return (
     <TemplateWrapper>
-      <Layout title={`Tags - ${title}`} description={subtitle}>
+      <Layout title={`Topics - ${title}`} description={subtitle}>
         <Sidebar location={location} />
-        <Page title="Tags" subtitle={<Link to="/">← Back to Home</Link>}>
+        <Page title="Topics" subtitle={<Link to="/">← Back to Home</Link>}>
           <ul>
             {sortedTags.map(tag => (
               <li key={tag.fieldValue}>
@@ -39,9 +39,9 @@ export const Head = ({ data }) => {
   return (
     <>
       <html lang="en" />
-      <title>{`Tags - ${title}`}</title>
+      <title>{`Topics - ${title}`}</title>
       <meta name="description" content={subtitle} />
-      <meta property="og:title" content={`Tags - ${title}`} />
+      <meta property="og:title" content={`Topics - ${title}`} />
       <meta property="og:description" content={subtitle} />
     </>
   );

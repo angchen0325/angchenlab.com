@@ -66,7 +66,7 @@ const TagTemplate = ({ data, pageContext, location }: Props) => {
         <Page
           title={`${tag}${currentPage > 1 ? ` - Page ${currentPage}` : ''}`}
           subtitle={
-            <Link to="/tags/">← Back to All Tags</Link>
+            <Link to="/tags/">← Back to All Topics</Link>
           }
           description={buildTagDescription(tag, edges)}
         >

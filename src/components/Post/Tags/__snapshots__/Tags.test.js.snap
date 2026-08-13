@@ -13,7 +13,7 @@ exports[`Tags renders correctly 1`] = `
       <h4
         className="tags__title"
       >
-        Tags:
+        Topics:
       </h4>
     </li>
     <li

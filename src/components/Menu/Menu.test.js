@@ -35,7 +35,7 @@ describe('Menu', () => {
     expect(isMenuItemActive('/blog/', '/projects/')).toBe(false);
   });
 
-  it('marks Tags active on tag pages', () => {
+  it('marks Topics active on topic pages', () => {
     expect(isMenuItemActive('/tags/', '/tags/')).toBe(true);
     expect(isMenuItemActive('/tags/', '/tag/optics/')).toBe(true);
     expect(isMenuItemActive('/tags/', '/blog/')).toBe(false);
