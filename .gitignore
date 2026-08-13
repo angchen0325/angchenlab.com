@@ -3,6 +3,7 @@ node_modules/
 .vscode/
 public/
 public-live/
+tmp/
 npm-debug.log
 .eslintcache
 .gatsby-context.js
