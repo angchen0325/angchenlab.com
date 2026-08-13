@@ -1,5 +1,5 @@
 ---
-frontSlug: "/series/simulating-rainbow-colors-from-zero/"
+frontSlug: "/series/rainbows/"
 ---
 
 ## What Next?
