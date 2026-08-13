@@ -24,7 +24,7 @@ Consider a mirror-symmetric square-lattice slab in Ref. <a href="#ref-2" id="ref
 
 <figure style="width: 100%; margin: 2rem auto; text-align: center;">
   <img src="../../static/media/photonics/figure_20260422_photonics_band_structures_within_light_cone_bands.svg" alt="Square-lattice silicon-nitride slab and its TE-like and TM-like photonic bands" style="width: 100%; height: auto;" />
-  <figcaption style="font-size: 1.0rem; line-height: 1.3; text-align: left;"><b>Figure 1.</b> Left panel: Square-lattice $\mathrm{Si_3N_4}$ slab with circular $\mathrm{SiO_2}$ holes and symmetric silica claddings. Right panel: TE-like and TM-like photonic bands.
+  <figcaption style="font-size: 1.0rem; line-height: 1.3; text-align: left;"><b>Figure 1.</b> Left panel: Square-lattice silicon-nitride slab with circular silica holes and symmetric silica claddings. Right panel: TE-like and TM-like photonic bands.
   </figcaption>
 </figure>
 
