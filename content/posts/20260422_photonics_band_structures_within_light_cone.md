@@ -16,7 +16,7 @@ description: A field-based method for classifying TE-like and TM-like modes in a
 
 Computing a photonic-crystal slab band structure is only half of the problem; the modes must also be labeled correctly. In particular, Legume's `kz_symms` output is not the conventional TE-like/TM-like classification. This note shows how to recover that classification from the electric field of each mode.
 
-The complete calculation is available in the [`nanocompute-learn`](https://github.com/angchen0325/nanocompute-learn/tree/main/tests/legume) repository.
+The complete calculation is available in the [<i class="fa-brands fa-github"></i> nanocompute-learn](https://github.com/angchen0325/nanocompute-learn/tree/main/tests/legume) repository.
 
 ## 1. Model system
 
